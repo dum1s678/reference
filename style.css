@@ -65,13 +65,16 @@ header {
     padding: 5px;
 }
 
-.dima {
+.element {
     display: flex;
     justify-content:  center;
     align-items:  center;
     flex-direction: column;
     box-shadow: rgba(0, 0, 0, 0.12) 0px 8px 20px 0px;
     margin-top: 50px;
+    margin-left: 490px;
+    margin-right: 490px;
+    border-radius: 15px;
 }
 
 .weeee {
@@ -80,15 +83,55 @@ header {
     align-items: center;
     justify-content: center;
     gap: 10px;
-    background-color: rgb(141, 138, 246)
+    background-color: rgb(183, 181, 247);
+    margin-bottom: 15px;
+    border-radius: 15px;
+    width: 90%;
 }
 
 .rt, .tr, .rtr {
-    width: 45px;
-    height: 45px;
+    width: 70px;
+    height: 70px;
     background-color: rgb(58, 58, 225);
     display: flex;
     flex-direction:row ;
     align-items: center;
     justify-content: center;
+    color: white;
+    border-radius: 15px;
+}
+
+.element_div {
+    justify-content: flex-start;
+    width: 100%;
+    margin: 30px 0px 0px 35px;
+}
+
+.element_p {
+font-size: 22px;
+font-weight: bold;
+}
+
+.footer {
+
+    background-color:rgb(40, 42, 61) ;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 8%;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
 }
